@@ -1,0 +1,53 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 3rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+img {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 2rem;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  font-size: 1.2rem;
+  padding: 0.7rem 0.5rem;
+  color: rgb(41, 57, 57);
+
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.company h1 {
+  align-self: self-start;
+  margin-left: 1rem;
+}
+
+.company p {
+  font-size: 1.5rem;
+  text-align: start;
+  text-indent: 1rem;
+  max-width: 900px;
+
+  margin: 0;
+}
